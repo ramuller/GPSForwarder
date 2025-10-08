@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:id="@+id/logScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/logView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#EEEEEE"
+            android:fontFamily="monospace"
+            android:inputType="textMultiLine"
+            android:maxLines="100"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </ScrollView>
+</LinearLayout>
